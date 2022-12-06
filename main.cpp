@@ -1,14 +1,13 @@
 #include <iostream>
 #include "lib.h"
-using namespace std;
-int main(){
-  int x , a=1;
-    cin >> x ;
-    if (a) {
-        cout << (char)(convL(x ,a)) << endl;
+int main() {
+    int x , y;
+    std::cin >> x ;
+    if (convL(x,y)){
+        std::cout << (char)y << std::endl;
     }
     else {
-        cout << "errore" << endl;
+        std::cout << "errore" << std::endl;
     }
-  return 0;
+    return 0;
 }
