@@ -1,15 +1,17 @@
-bool convL (int x ) {
+int convL (int x , int i) {
     if ((x>=65 and x<=90) or (x>=97 and x<=122)) {
-        return true;
+       i=1 ;
     }
-}
-
-int conVL(int x) {
-    if (x>=65 and x<=90) {
-        x=x+32 ;
+    else {
+        i=0 ;
     }
-    else  if (x>=97 and x<=122) {
-        x=x-32 ;
+    if (i) {
+        if (x>=65 and x<=90) {
+           x= x+32 ;
+        }
+        else  if (x>=97 and x<=122) {
+            x= x-32 ;
+        }
     }
     return x;
 }
