@@ -1,4 +1,3 @@
-#include <iostream>
 #include "lib.h"
 
 bool convL(int a , int &b) {
