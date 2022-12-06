@@ -1,19 +1,16 @@
 #include "lib.h"
 
-int convL (int x , int i) {
-    if ((x>=65 and x<=90) or (x>=97 and x<=122)) {
-       i=1 ;
+bool convL(int a , int &b) {
+    if (a>=65 and a<=90) {
+        b=a+32 ;
+    }
+    if (a>=97 and a<=122){
+        b=a-32 ;
+    }
+    if ((a>=65 and a<=90) or (a>=97 and a<=122)) {
+        return true ;
     }
     else {
-        i=0 ;
+        return false ;
     }
-    if (i) {
-        if (x>=65 and x<=90) {
-           x= x+32 ;
-        }
-        else  if (x>=97 and x<=122) {
-            x= x-32 ;
-        }
-    }
-    return x;
 }
