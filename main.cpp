@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int main(){
   int x , a=1;
     cin >> x ;
