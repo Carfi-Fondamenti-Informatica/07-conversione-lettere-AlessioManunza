@@ -1,3 +1,1 @@
-bool convL(int );
-int conVL(int) ;
-
+bool convL(int , int);
