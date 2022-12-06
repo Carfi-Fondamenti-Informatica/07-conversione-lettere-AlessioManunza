@@ -1,12 +1,10 @@
 #include <iostream>
 
 int main(){
-  int x ;
+  int x , a=1;
     cin >> x ;
-    x=conVL(x) ;
-    bool y=convL(x );
-    if (y==true) {
-        cout << (char)x << endl;
+    if (a) {
+        cout << (char)(convL(x ,a)) << endl;
     }
     else {
         cout << "errore" << endl;
