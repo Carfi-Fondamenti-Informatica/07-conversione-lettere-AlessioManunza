@@ -1,3 +1,5 @@
+#include "lib.h"
+
 int convL (int x , int i) {
     if ((x>=65 and x<=90) or (x>=97 and x<=122)) {
        i=1 ;
