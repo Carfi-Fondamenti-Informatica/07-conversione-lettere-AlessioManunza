@@ -1,1 +1,1 @@
-bool convL (int&);
+bool convL (char&);
