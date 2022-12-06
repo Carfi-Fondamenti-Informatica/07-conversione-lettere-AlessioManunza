@@ -1,13 +1,15 @@
 #include <iostream>
 #include "lib.h"
+using namespace std;
+
 int main() {
-    int x , y;
-    std::cin >> x ;
-    if (convL(x,y)){
-        std::cout << (char)y << std::endl;
+    int x ;
+    cin >> x ;
+    if (convL(x)) {
+        cout << (char)x << endl;
     }
-    else {
-        std::cout << "errore" << std::endl;
+    else{
+        cout << "errore" << endl;
     }
-    return 0;
+
 }
