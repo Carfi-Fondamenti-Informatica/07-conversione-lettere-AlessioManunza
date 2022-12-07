@@ -5,11 +5,15 @@ int main() {
     int x ;
     cin >> x ;
     char a=x ;
-    bool y= convL(a) ;
-    if (y) {
-        cout << a << std::endl;
+    if (convL(a)) {
+        if (a>=65 and a<=90){
+            cout << (char)(a+32) << endl;
+        }
+        else if (a>=97 and a<=122) {
+            cout << (char)(a-32) << endl;
+        }
     }
     else{
-        std::cout << "errore" << std::endl;
+        cout << "errore" << std::endl;
     }
 }
