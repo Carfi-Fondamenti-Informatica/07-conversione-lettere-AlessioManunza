@@ -5,7 +5,7 @@ bool convL(char &a) {
         if (a>=65 and a<=90) {
             a+=32 ;
         }
-        else if (a>=97 and a<=122) {
+        else {
             a-=32 ;
         }
         return 1 ;
