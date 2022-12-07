@@ -6,12 +6,7 @@ int main() {
     cin >> x ;
     char a=x ;
     if (convL(a)) {
-        if (a>=65 and a<=90){
-            cout << (char)(a+32) << endl;
-        }
-        else if (a>=97 and a<=122) {
-            cout << (char)(a-32) << endl;
-        }
+        cout << (char)a << endl;
     }
     else{
         cout << "errore" << std::endl;
