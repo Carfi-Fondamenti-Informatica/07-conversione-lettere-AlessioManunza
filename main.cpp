@@ -4,11 +4,11 @@ using namespace std ;
 int main() {
     int x ;
     cin >> x ;
-    char a=x ;
+    char a= x ;
     if (convL(a)) {
-        cout << (char)a << endl;
+        cout << a << endl;
     }
-    else{
-        cout << "errore" << std::endl;
+    else {
+        cout << "errore" << endl;
     }
 }
